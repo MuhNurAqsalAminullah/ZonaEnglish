@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .bg-color2 {
+    background-color: #FF0404;
+    background-color: #FFE8E8;
+    background-image: url(../images/bgRegister1.jpg);
+    padding: 30px;
+} */
+
+.bgRegister1 {
+    background-image: url(../images/bgRegister1.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 40px;
+}
+
+.bgRegister2 {
+    background-image: url(../images/bgRegister2.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding: 50px;
+}
+
+.boxContentRegis {
+    background-color: #fff;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: -1px 2px 10px grey;
+}
+
+.boxbgRegis1 {
+    background-color: #FFE8E8;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 20px 0 0 20px;
+}
+
+.boxbgRegis2 {
+    background-color: #D4DCE3;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 20px 0 0 20px;
+}
+
+.boxlistRegis {
+    padding: 10px 40px;
+    width: 100%;
+}
+
+.titleregis {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sub1 {
+    /* color: #C78B8B; */
+    text-align: center;
+    line-height: normal;
+    font-size: 14px;
+    /* margin-top: 5px; */
+}
+
+.contentregis {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px; */
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+  }
+
+  input[type=email], select {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+  }
+
+  .box-image-file {
+      /* border: 1px solid #FF0000; */
+      width: 320px;
+  }
+
+  .box-CV {
+      /* border: 1px solid #FF0000; */
+      width: 400px;
+  }
+
+  .mtop {
+    margin-top: 100px;
+  }
+
+@media screen and (max-width: 576px) {
+    .boxContentRegis {
+        flex-direction: column;
+    }
+
+    .boxbgRegis1 {
+        padding: 20px 20px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .boxbgRegis2 {
+        padding: 20px 20px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .titleregis {
+        font-size: 20px;
+    }
+
+    .sub1 {
+        font-size: 12px;
+    }
+
+    .contentregis {
+        flex-direction: column;
+    }
+
+    .bgRegister1 {
+        height: 100%;
+    }
+
+    .bgRegister2 {
+        height: 100%;
+    }
+
+    .box-image-file {
+        /* border: 1px solid #FF0000; */
+        width: 220px;
+    }
+  
+    .box-CV {
+        /* border: 1px solid #FF0000; */
+        width: 220px;
+    }
+
+    .mtop {
+        margin-top: 22px;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    .boxContentRegis {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .boxbgRegis1 {
+        justify-content: center;
+        padding: 20px 20px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .boxbgRegis2 {
+        justify-content: center;
+        padding: 20px 20px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .contentsub1 {
+        margin-right: 10px;
+    }
+
+    .contentsub2 {
+        margin-left: 10px;
+    }
+
+    .bgRegister1 {
+        height: 100%;
+    }
+
+    .bgRegister2 {
+        height: 100%;
+    }
+
+    .mtop {
+        margin-top: 22px;
+      }
+}
+
+@media screen and (max-width: 992px) {
+    .boxContentRegis {
+        flex-direction: column;
+    }
+
+    .boxbgRegis1 {
+        justify-content: center;
+        padding: 20px 20px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .boxbgRegis2 {
+        justify-content: center;
+        padding: 20px 20px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .contentsub1 {
+        margin-right: 10px;
+    }
+
+    .contentsub2 {
+        margin-left: 10px;
+    }
+
+    .mtop {
+        margin-top: 22px;
+      }
+}
+
+/* .boxdropfoto {
+    background-color: #FF8D8D;
+} */

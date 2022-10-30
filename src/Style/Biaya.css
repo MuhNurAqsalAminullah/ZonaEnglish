@@ -1,0 +1,123 @@
+.bgColor-biaya {
+    background-image: url("../images/bg_biaya.png");
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.box-hero-biaya {
+    display: flex;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    padding-top: 90px;
+    /* padding-bottom: 100px; sementara */
+}
+
+.boxes-free-fitur {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin-top: 30px; */
+}
+
+.box-free-fitur {
+    display: flex;
+    width: 325px;
+    height: 100px;
+    margin-top: 30px;
+    /* background-color: #d3e3d3; */
+}
+
+.boxex-harga-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.box-card-harga {
+    width: 250px;
+    height: 330px;
+    background-color: #fff;
+    border: 2px solid #FF0000;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.sub-box-content-harga {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.boxes-promo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.circle-slider-promo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.topUp-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.topUP-card-box {
+    width: 250px;
+    height: 450px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, .5);
+}
+
+@media screen and (max-width: 576px) {
+    .box-hero-biaya {
+        flex-direction: column;
+    }
+    .boxex-harga-list {
+        justify-content: center;
+        /* margin-top: 30px; */
+    }
+
+    .box-card-harga {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .box-hero-biaya {
+        flex-direction: column;
+    }
+
+    .boxex-harga-list {
+        justify-content: space-around;
+    }
+    .box-card-harga {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .box-hero-biaya {
+        flex-direction: column;
+    }
+    
+    .boxex-harga-list {
+        justify-content: space-around;
+    }
+    .box-card-harga {
+        margin-top: 20px;
+    }
+}

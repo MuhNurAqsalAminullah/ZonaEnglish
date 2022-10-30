@@ -1,0 +1,37 @@
+
+
+.CardTitleDaftar {
+    margin: 0;
+    color: #333333;
+    font-weight: 300;
+}
+
+.card-category {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9a9a9a;
+    margin-bottom: 0;
+}
+
+th {
+    border-bottom-width: 1px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #9A9A9A;
+    font-weight: 400;
+    padding-bottom: 5px;
+    border-top: none !important;
+    border-bottom: none;
+    text-align: left !important;
+}
+
+.labelStayle {
+    font-size: 12px;
+    /* margin-bottom: 5px; */
+    text-transform: uppercase;
+    color: #9A9A9A;
+}
+
+.success {
+    color: chartreuse ;
+}

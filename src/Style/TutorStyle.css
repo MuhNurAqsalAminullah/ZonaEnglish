@@ -1,0 +1,160 @@
+* {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.bgcolorTeacher {
+    background-image: url("../images/bg_hero.png");
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.boxHeroTutuor {
+    display: flex;
+    padding-top: 100px;
+}
+
+.boxconterhero {
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+
+.text-white {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wtB {
+    width: 600px;
+}
+
+.contentBoxType {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    /* border-radius: 18px; */
+    box-shadow: 2px 2px 10px 0 rgba(18, 93, 226, 0.2);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content_boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contentBoxFitur {
+    /* background-color: burlywood; */
+    width: 210px;
+}
+
+.conntet_boxesThree {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.LinkCTN {
+    display: flex;
+}
+
+.boxContent_Join {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.btnFAKE {
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    /* margin-top: 5px; */
+    /* padding-top: 5px; */
+}
+
+.button-daftar {
+    border-radius: 10px;
+    background-color: rgb(255, 47, 47);
+    border: none;
+    box-shadow: none;
+    text-decoration: none;
+    width: 100%;
+    padding: .375rem .75rem;
+    /* text-transform: uppercase; */
+    color: #fff;
+    font-weight: bold;
+    /* margin-top: 20px; */
+}
+
+@media screen and (max-width: 576px) {
+    .boxHeroTutuor {
+        flex-direction: column;
+    }
+
+    .boxconterhero {
+        padding-left: 0;
+    }
+
+    .wtB {
+        width: 100%;
+    }
+
+    .contentBoxType {
+        justify-content: center;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .conntet_boxesThree {
+        justify-content: center;
+    }
+
+    .MTop {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .boxHeroTutuor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxconterhero {
+        padding-left: 0;
+    }
+
+    .contentBoxType {
+        justify-content: space-around;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .content_boxes {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .boxHeroTutuor {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .boxconterhero {
+        padding-left: 0;
+    }
+}
